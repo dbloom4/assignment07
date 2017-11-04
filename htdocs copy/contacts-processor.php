@@ -21,7 +21,7 @@
 	
 
 	// 2. Perform database query
-	$query  = "INSERT INTO account (";
+	$query  = "INSERT INTO inclass (";
 	$query .= "  fname, lname, email";
 	$query .= ") VALUES (";
 	$query .= "  '{$fname}', '{$lname}', '{$email}' ";
